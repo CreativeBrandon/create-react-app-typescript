@@ -2,13 +2,13 @@
   "name": "react-scripts-ts",
   "version": "2.7.0",
   "description": "Configuration and scripts for Create React App.",
-  "repository": "wmonk/create-react-app",
+  "repository": "creativebrandon/create-react-app",
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=6"
   },
   "bugs": {
-    "url": "https://github.com/wmonk/create-react-app/issues"
+    "url": "https://github.com/creativebrandon/create-react-app/issues"
   },
   "files": [
     "bin",
