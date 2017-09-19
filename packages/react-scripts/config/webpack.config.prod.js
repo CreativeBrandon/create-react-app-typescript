@@ -171,7 +171,7 @@ module.exports = {
           {
             test: /\.(ts|tsx)$/,
             include: paths.appSrc,
-            loader: require.resolve('ts-loader')
+            loader: require.resolve('ts-loader'),
           },
           // The notation here is somewhat confusing.
           // "postcss" loader applies autoprefixer to our CSS.
@@ -195,6 +195,7 @@ module.exports = {
                     {
                       loader: require.resolve('css-loader'),
                       options: {
+                        modules: true,
                         importLoaders: 1,
                         minimize: true,
                         sourceMap: shouldUseSourceMap,
